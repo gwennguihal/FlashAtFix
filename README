@@ -1,0 +1,14 @@
+Patch for Flash Player that solves the "@" and all "AltGr" problems (wmode transparent/opaque).
+
+It works for now on :
+- Mozilla Firefox
+- Google Chrome
+- Safari (only MacOS)
+
+How to use :
+
+See Sample.as or :
+
+new FlashAtFix(textfield_txt);
+
+The "allowScriptAccess" parameter need to be set at "always" or "sameDomain".
