@@ -12,3 +12,5 @@ See Sample.as or :
 new FlashAtFix(textfield_txt);
 
 The "allowScriptAccess" parameter need to be set at "always" or "sameDomain".
+
+To test it : http://goo.gl/HZucI
