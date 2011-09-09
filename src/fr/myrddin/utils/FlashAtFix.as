@@ -53,6 +53,9 @@ package fr.myrddin.utils
 			_field.removeEventListener(Event.REMOVED_FROM_STAGE, _dispose);
 			_field.removeEventListener(FocusEvent.FOCUS_IN, _onTextFieldFocusIn);
 			_field.removeEventListener(FocusEvent.FOCUS_OUT, _onTextFieldFocusOut);
+			_field.stage.removeEventListener(KeyboardEvent.KEY_UP, _onKeyUp);
+			_field.stage.removeEventListener(KeyboardEvent.KEY_DOWN, _onKeyDow);
+			_field.removeEventListener(Event.CHANGE, _onTextFieldChange);
 		}
 
 		private function _initJS() : Boolean

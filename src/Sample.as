@@ -1,11 +1,11 @@
 ﻿package 
 {
-	import flash.geom.ColorTransform;
-	import flash.utils.setTimeout;
 	import fr.myrddin.utils.FlashAtFix;
 
 	import flash.display.Sprite;
 	import flash.events.Event;
+	import flash.geom.ColorTransform;
+	import flash.utils.setTimeout;
 
 	public class Sample extends Sprite
 	{

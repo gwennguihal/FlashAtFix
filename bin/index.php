@@ -17,6 +17,7 @@
 	<div id="flashcontent" style="font-family:Verdana,sans-serif;display:none;">
 		Vous n'avez pas la dernière version de Flash Player.<br/><a href="http://get.adobe.com/flashplayer/" target="_blank">Téléchargez-la</a>
 	</div>
+	<a href="https://github.com/myrddinus/FlashAtFix">Sources on GitHub</a>
 	
 	<script type="text/javascript">
 		//<![CDATA[
